@@ -137,15 +137,7 @@ DATABASES = {
     )
 }
 
-# ============================================================
 # PASSWORD VALIDATION
-# ============================================================
-#
-# Google-only authentication.
-# Normal users do not create passwords.
-#
-# Django admin can still use its own password authentication.
-# ============================================================
 
 AUTH_PASSWORD_VALIDATORS = [
     {
